@@ -16,3 +16,19 @@ combine_as_imports = true
 combine_star = true
 known_local_folder = ["tests", "cli"]
 known_first_party = ["test_utils"]
+
+[tool.poetry]
+name = "ai-ticket"
+version = "0.1.0"
+description = "An AI ticketing utility"
+authors = ["Mike Dupont <dummy@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "6.2.5"
+pytest-asyncio = "0.16.0"
+black = "22.3.0"
+isort = "5.10.1"
+pypsutil = "^0.1.0"
